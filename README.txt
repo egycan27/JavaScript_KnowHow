@@ -5,3 +5,10 @@ npm install --save-dev gulp-compile-handlebars gulp-rename
 partials/header , partials/countdown , partials/footer
 #For converting less files into CSS
 npm install --save-dev gulp-dev gulp-less
+                <-----------Preprocessing CSS ---------->
+normalize.css
+npm install --save normalize.css
+                <-----------Creating less modules and less variables----------->
+src/styles/base.less
+src/styles/varaiables.less
+src/styles/helper.less
