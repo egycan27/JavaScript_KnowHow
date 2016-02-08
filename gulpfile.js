@@ -6,12 +6,15 @@ var uglify = require('gulp-uglify');
 var imageMin = require('gulp-imagemin');
 var handlebars = require('gulp-compile-handlebars');
 var rename = require('gulp-rename');
-
+var menu = require('./menu.json');
 //Templates tasks
 gulp.task('templates',function(){
-  var data = {};
+  var data = {
+    year  : new Date().getFullYear(),
+    menu :  menu.menuItems
+  };
   var options = {
-    batch : ['src/templates/partials']
+    batch : ['./src/templates/partials']
   };
 
 
