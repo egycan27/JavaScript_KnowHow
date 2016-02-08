@@ -1,5 +1,3 @@
-npm install --save-dev browser-sync
-npm install --save-dev gulp-minify-css
-npm install --save-dev gulp-sourcemaps
-npm install --save-dev gulp-uglify
-npm install --save-dev gulp-imagemin
+npm install --save-dev browser-sync  gulp-minify-css  gulp-sourcemaps gulp-uglify gulp-imagemin
+# Using HBS Templates#
+npm install --save-dev gulp-compile-handlebars gulp-rename
